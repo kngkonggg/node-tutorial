@@ -1,0 +1,11 @@
+const getName = require('./module')
+const sayHi = require('./utils')
+const data = require('./alternative-flavors')
+const add = require('./directinvoke')
+const addValue = require('./directinvoke')
+
+// sayHi(getName.aly)
+// sayHi(getName.nicco)
+// console.log(`I'm an item with a total number of :  ${data.items}`)
+// console.log(`I'm person with details below :  Age : ${data.person.age} Name : ${data.person.name}`)
+addValue(10,20)
